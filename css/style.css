@@ -1,0 +1,99 @@
+/*Formatear html*/
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 32px;
+}
+
+/*Estilos del header*/
+.header{
+    background-color:#2a2a2a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.logo{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.header nav ul{
+    list-style: none;
+    
+}
+
+.header nav ul li{
+    display: inline-block;    
+    margin: 10 15px;
+
+}
+
+.header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header nav ul li a:hover{
+    color: #891f1f;
+    text-decoration: underline;
+}
+
+/*Estilos al cuerpo de la pagina*/
+#about{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+h2{
+    padding-bottom: 15px;
+    color: #f9161d;
+}
+
+.gallery{
+    padding:  40px 20px;
+    text-align: center;
+
+}
+
+.gallery img{
+    display: inline-block;
+    width: 200´px;
+    height: auto;
+    margin: 10px;
+    border: 5px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0b, 0.1);
+        
+}
+
+.gallery img:hover{
+    border-color: #c48387;
+    
+}
+
+.footer{
+    background-color: #2a2a2a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    
+}
